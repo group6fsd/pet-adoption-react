@@ -1,33 +1,47 @@
-import DogCategory from "../../../assets/images/DogCategory.png";
-import CatCategory from "../../../assets/images/CatCategory.png";
+
+import ImgCategory1 from "../../../assets/images/animal-1.png";
+import ImgCategory2 from "../../../assets/images/animal-2.png";
+import { Link } from "react-router-dom";
+
 
 function Category() {
   return (
     <>
-      {/* Title */}
-      <div className="w-full px-4 text-center mb-10 mt-20">
-        <h4 className="font-[Poppins] font-bold text-base text-white mb-10 sm:text-xl lg:text-2xl">Choose the categories</h4>
-      </div>
-      ;{/* Option */}
-      <div className="flex w-full justify-center gap-5 overflow-hidden px-5 sm:px-14 md:px-32 lg:px-40">
-        {/* Dogs */}
-        <div className="flex-1 sm:flex-none cursor-pointer hover:brightness-90 sm:w-56 aspect-square shrink-0 relative rounded-xl overflow-hidden ">
-          <img src={DogCategory} alt="Dog" className="w-full h-full object-cover" />
-          <div className="font-semibold absolute bottom-1 right-3 flex items-center gap-1">
-            <hr className="border-[1px] outline-none w-12" />
-            <span className="text-white">DOGS</span>
+
+      <section className="bg-gradient-to-r from-amber-500 to-purple-800 pt-12">
+        <div className="bg-gradient-to-r from-amber-500 to-purple-800">
+          <div className="flex flex-wrap mt-[80px] rounded-xl ">
+            <div className="w-full px-2 py-4 flex justify-center text-center  gap-[100px]">
+              <Link to="/dogs" className="">
+                <div>
+                  <img
+                    src={ImgCategory1}
+                    alt=""
+                    className="flex hover:scale-125 hover:rounded-xl"
+                  />
+                  <p className="font-bold text-4xl text-white hover:text-fuchsia-950">
+                    Dogs
+                  </p>
+                </div>
+              </Link>
+
+              <Link to="/cats" className="">
+                <div>
+                  <img
+                    src={ImgCategory2}
+                    alt=""
+                    className="flex hover:scale-125 hover:rounded-xl"
+                  />
+                  <p className="font-bold text-4xl text-white hover:text-fuchsia-950">
+                    Cats
+                  </p>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
-        {/* Cats */}
-        <div className="flex-1 sm:flex-none cursor-pointer hover:brightness-90 sm:w-56 aspect-square shrink-0 relative rounded-xl overflow-hidden">
-          <img src={CatCategory} alt="Cat" className="w-full h-full object-cover" />
-          <div className="font-semibold absolute bottom-1 right-3 flex items-center gap-1">
-            <hr className="border-[1px] outline-none w-12" />
-            <span className="text-white">CATS</span>
-          </div>
-        </div>
-      </div>
-      ;
+      </section>
+
     </>
   );
 }
