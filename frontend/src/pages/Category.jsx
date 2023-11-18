@@ -1,3 +1,4 @@
+
 import Navbar from "../components/molecules/Navbar";
 import Footer from "../components/molecules/Footer";
 import Category from "../components/organisems/Category";
@@ -15,3 +16,4 @@ function ShowCategory() {
 }
 
 export default ShowCategory;
+

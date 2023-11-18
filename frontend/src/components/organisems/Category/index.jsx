@@ -1,10 +1,13 @@
+
 import ImgCategory1 from "../../../assets/images/animal-1.png";
 import ImgCategory2 from "../../../assets/images/animal-2.png";
 import { Link } from "react-router-dom";
 
+
 function Category() {
   return (
     <>
+
       <section className="bg-gradient-to-r from-amber-500 to-purple-800 pt-12">
         <div className="bg-gradient-to-r from-amber-500 to-purple-800">
           <div className="flex flex-wrap mt-[80px] rounded-xl ">
@@ -38,6 +41,7 @@ function Category() {
           </div>
         </div>
       </section>
+
     </>
   );
 }

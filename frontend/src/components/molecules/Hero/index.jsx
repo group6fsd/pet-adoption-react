@@ -7,6 +7,7 @@ function Hero() {
       <div className="container">
         <div className="w-full flex justify-center">
           <div className="relative">
+
             <img
               src={cathero}
               alt="Cat Thumbnail"
@@ -19,6 +20,7 @@ function Hero() {
               <i className="fa-solid fa-paw mr-2"></i>
               <Link to="/category">Explore Pets</Link>
             </p>
+
           </div>
         </div>
       </div>
