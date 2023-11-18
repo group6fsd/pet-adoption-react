@@ -3,6 +3,7 @@ import Home from "../pages/Index";
 import LoginPage from "../pages/LoginPage";
 import RegisterPage from "../pages/RegisterPage";
 import ShowPet from "../pages/Pet";
+import ShowCategory from "../pages/Category";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <RegisterPage />,
+  },
+  {
+    path: "/category",
+    element: <ShowCategory />,
   },
   {
     path: "/pet",
