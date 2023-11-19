@@ -13,7 +13,7 @@ function DogCategory() {
 
         <div className="grid grid-cols-3 justify-items-center mx-32 pt-[50px] mb-[100px]">
           <div className="w-[257px] h-[281px] bg-white rounded-[15px] shadow mt-[30px] ">
-            <Link>
+            <Link to="/details">
               <img className="w-[176px] rounded-[15px] mx-auto py-2" src={ImgPet} />
             </Link>
             <div className=" text-black px-10 text-sm font-bold font-['Poppins']">Name</div>
@@ -21,7 +21,7 @@ function DogCategory() {
             <div className=" text-black px-10 text-sm font-normal font-['Poppins']">Male</div>
           </div>
           <div className="w-[257px] h-[281px] bg-white rounded-[15px] shadow mt-[30px]">
-            <Link>
+            <Link to="/details">
               <img className="w-[176px] rounded-[15px] mx-auto py-2" src={ImgPet} />
             </Link>
             <div className=" text-black px-10 text-sm font-bold font-['Poppins']">Name</div>
@@ -29,7 +29,7 @@ function DogCategory() {
             <div className=" text-black px-10 text-sm font-normal font-['Poppins']">Male</div>
           </div>
           <div className="w-[257px] h-[281px] bg-white rounded-[15px] shadow mt-[30px]">
-            <Link>
+            <Link to="/details">
               <img className="w-[176px] rounded-[15px] mx-auto py-2" src={ImgPet} />
             </Link>
             <div className=" text-black px-10 text-sm font-bold font-['Poppins']">Name</div>
@@ -38,7 +38,7 @@ function DogCategory() {
           </div>
 
           <div className="w-[257px] h-[281px] bg-white rounded-[15px] shadow mt-[30px] ">
-            <Link>
+            <Link to="/details">
               <img className="w-[176px] rounded-[15px] mx-auto py-2" src={ImgPet} />
             </Link>
             <div className=" text-black px-10 text-sm font-bold font-['Poppins']">Name</div>
@@ -46,7 +46,7 @@ function DogCategory() {
             <div className=" text-black px-10 text-sm font-normal font-['Poppins']">Male</div>
           </div>
           <div className="w-[257px] h-[281px] bg-white rounded-[15px] shadow mt-[30px]">
-            <Link>
+            <Link to="/details">
               <img className="w-[176px] rounded-[15px] mx-auto py-2" src={ImgPet} />
             </Link>
             <div className=" text-black px-10 text-sm font-bold font-['Poppins']">Name</div>
@@ -54,7 +54,7 @@ function DogCategory() {
             <div className=" text-black px-10 text-sm font-normal font-['Poppins']">Male</div>
           </div>
           <div className="w-[257px] h-[281px] bg-white rounded-[15px] shadow mt-[30px]">
-            <Link>
+            <Link to="/details">
               <img className="w-[176px] rounded-[15px] mx-auto py-2" src={ImgPet} />
             </Link>
             <div className=" text-black px-10 text-sm font-bold font-['Poppins']">Name</div>
