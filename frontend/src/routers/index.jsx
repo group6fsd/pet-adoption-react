@@ -7,8 +7,6 @@ import ShowPet from "../pages/Pet";
 import Category from "../pages/Category";
 import ShowCategoryDog from "../pages/CatergoryDog";
 import ShowCategoryCat from "../pages/CategoryCat";
-=======
-
 
 export const router = createBrowserRouter([
   {
@@ -22,10 +20,6 @@ export const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <RegisterPage />,
-  },
-  {
-    path: "/category",
-    element: <ShowCategory />,
   },
   {
     path: "/pet",
